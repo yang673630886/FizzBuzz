@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2474341-1820-412f-b701-dbdfa7144f5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/empty-repo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="464">
+              <caret line="109" column="36" lean-forward="true" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,9 +70,9 @@
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/Dependency.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java" />
-        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/RunMarsCar.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/MarsCar.java" />
+        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java" />
       </list>
     </option>
   </component>
@@ -172,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.should_return_Fizz_given_35">
     <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
@@ -220,7 +241,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.should_return_Fizz_given_30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.should_return_Fizz_given_35" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
         <pattern>
@@ -230,7 +251,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="should_return_Fizz_given_30" />
+      <option name="METHOD_NAME" value="should_return_Fizz_given_35" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -253,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest.should_return_Fizz_given_35" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.FizzBuzzTest.should_return_FizzBuzzWhizz_given_105" />
         <item itemvalue="JUnit.MarsCarTest" />
         <item itemvalue="JUnit.FizzBuzzTest.should_return_FizzBuzz_given_15_Buzz" />
-        <item itemvalue="JUnit.FizzBuzzTest.should_return_Fizz_given_30" />
       </list>
     </recent_temporary>
   </component>
@@ -276,14 +297,11 @@
       <workItem from="1592204277492" duration="353000" />
       <workItem from="1592204657003" duration="13060000" />
       <workItem from="1592220591444" duration="522000" />
-      <workItem from="1592221272435" duration="804000" />
+      <workItem from="1592221272435" duration="1787000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest_should_return_Fizz_given_13_Buzz - 2020.06.15 at 15h 41m 59s.xml">
-      <configuration name="FizzBuzzTest.should_return_Fizz_given_13_Buzz" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzTest - 2020.06.15 at 15h 44m 15s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
@@ -311,15 +329,18 @@
     <history-entry file="FizzBuzzTest - 2020.06.15 at 19h 41m 39s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest_should_return_Fizz_given_35 - 2020.06.15 at 20h 04m 12s.xml">
+      <configuration name="FizzBuzzTest.should_return_Fizz_given_35" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17723000" />
+    <option name="totallyTimeSpent" value="18706000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="402" y="92" width="937" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5222349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24413647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,16 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java" />
     <entry file="file://$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/MarsCar.java" />
     <entry file="file://$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/Dependency.java">
@@ -390,17 +401,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="264">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="464">
+          <caret line="109" column="36" lean-forward="true" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
