@@ -32,7 +32,6 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"0");
         assertEquals(String.valueOf(y),"0");
         assertEquals(direction,"W");
-
     }
     @Test
     public void should_return_00E_give_00N_R(){
@@ -59,7 +58,6 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"0");
         assertEquals(String.valueOf(y),"-1");
         assertEquals(direction,"S");
-
     }
     @Test
     public void should_return_00E_give_00S_L(){
@@ -73,7 +71,6 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"0");
         assertEquals(String.valueOf(y),"0");
         assertEquals(direction,"E");
-
     }
     @Test
     public void should_return_00W_give_00S_R(){
@@ -87,7 +84,6 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"0");
         assertEquals(String.valueOf(y),"0");
         assertEquals(direction,"W");
-
     }
     @Test
     public void should_return_10E_give_00E_M(){
@@ -101,7 +97,6 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"1");
         assertEquals(String.valueOf(y),"0");
         assertEquals(direction,"E");
-
     }
     @Test
     public void should_return_00N_give_00E_L(){
@@ -115,7 +110,6 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"0");
         assertEquals(String.valueOf(y),"0");
         assertEquals(direction,"N");
-
     }
     @Test
     public void should_return_00S_give_00E_R(){
@@ -129,7 +123,6 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"0");
         assertEquals(String.valueOf(y),"0");
         assertEquals(direction,"S");
-
     }
     @Test
     public void should_return__10W_give_00W_M(){
@@ -143,7 +136,6 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"-1");
         assertEquals(String.valueOf(y),"0");
         assertEquals(direction,"W");
-
     }
     @Test
     public void should_return_00S_give_00W_L(){
@@ -157,7 +149,6 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"0");
         assertEquals(String.valueOf(y),"0");
         assertEquals(direction,"S");
-
     }
     @Test
     public void should_return_00N_give_00W_R(){
@@ -171,9 +162,5 @@ public class MarsCarTest {
         assertEquals(String.valueOf(x),"0");
         assertEquals(String.valueOf(y),"0");
         assertEquals(direction,"N");
-
     }
-
-
-
 }

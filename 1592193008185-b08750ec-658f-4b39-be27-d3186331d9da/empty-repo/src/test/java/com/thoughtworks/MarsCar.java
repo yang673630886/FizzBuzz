@@ -1,86 +1,87 @@
 package com.thoughtworks;
 
-public class MarsCar {
+class MarsCar {
     private int x_axis;
     private int y_axis;
     private String direction;
 
-    public MarsCar(int x_axis, int y_axis, String direction) {
+    MarsCar(int x_axis, int y_axis, String direction) {
         this.x_axis = x_axis;
         this.y_axis = y_axis;
         this.direction = direction;
     }
 
-    public int getX_axis() {
+    int getX_axis() {
         return x_axis;
     }
 
-    public void setX_axis(int x_axis) {
+    private void setX_axis(int x_axis) {
         this.x_axis = x_axis;
     }
 
-    public int getY_axis() {
+    int getY_axis() {
         return y_axis;
     }
 
-    public void setY_axis(int y_axis) {
+    private void setY_axis(int y_axis) {
         this.y_axis = y_axis;
     }
 
-    public String getDirection() {
+    String getDirection() {
         return direction;
     }
 
-    public void setDirection(String direction) {
+    private void setDirection(String direction) {
         this.direction = direction;
     }
 
-    public MarsCar move(MarsCar marsCar, String command) {
-        if (marsCar.getDirection() == "N") {
-            if (command == "M") {
+   MarsCar move(MarsCar marsCar, String command) {
+
+        if ("N".equals(marsCar.getDirection())) {
+            if ("M".equals(command)) {
                 marsCar.setY_axis(marsCar.getY_axis() + 1);
             }
-            if (command == "L") {
+            if ("L".equals(command)) {
                 marsCar.setDirection("W");
             }
-            if (command == "R") {
+            if ("R".equals(command)) {
                 marsCar.setDirection("E");
             }
             return marsCar;
         }
 
-        if (marsCar.getDirection() == "S") {
-            if (command == "M") {
+        if ("S".equals(marsCar.getDirection())) {
+            if ("M".equals(command)) {
                 marsCar.setY_axis(marsCar.getY_axis() - 1);
             }
-            if (command == "L") {
+            if ("L".equals(command)) {
                 marsCar.setDirection("E");
             }
-            if (command == "R") {
+            if ("R".equals(command)) {
                 marsCar.setDirection("W");
             }
             return marsCar;
         }
-        if (marsCar.getDirection() == "E") {
-            if (command == "M") {
+        if ("E".equals(marsCar.getDirection())) {
+            if ("M".equals(command)) {
                 marsCar.setX_axis(marsCar.getX_axis() + 1);
             }
-            if (command == "L") {
+            if ("L".equals(command)) {
                 marsCar.setDirection("N");
             }
-            if (command == "R") {
+            if ("R".equals(command)) {
                 marsCar.setDirection("S");
             }
             return marsCar;
         }
-        if (marsCar.getDirection() == "W") {
-            if (command == "M") {
+        if ("W".equals(marsCar.getDirection())) {
+            if ("M".equals(command)) {
                 marsCar.setX_axis(marsCar.getX_axis() - 1);
             }
-            if (command == "L") {
+            if ("L".equals(command)) {
                 marsCar.setDirection("S");
             }
-            if (command == "R") {
+            if ("R".equals(command)) {
                 marsCar.setDirection("N");
             }
             return marsCar;
