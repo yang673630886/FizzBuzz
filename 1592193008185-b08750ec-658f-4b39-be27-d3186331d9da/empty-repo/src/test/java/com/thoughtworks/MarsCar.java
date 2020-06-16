@@ -35,56 +35,55 @@ class MarsCar {
         this.direction = direction;
     }
 
-   MarsCar move(MarsCar marsCar, String command) {
-
-        if ("N".equals(marsCar.getDirection())) {
+   MarsCar move(String command) {
+       if ("N".equals(this.getDirection())) {
             if ("M".equals(command)) {
-                marsCar.setY_axis(marsCar.getY_axis() + 1);
+                this.setY_axis(this.getY_axis() + 1);
             }
             if ("L".equals(command)) {
-                marsCar.setDirection("W");
+                this.setDirection("W");
             }
             if ("R".equals(command)) {
-                marsCar.setDirection("E");
+                this.setDirection("E");
             }
-            return marsCar;
+            return this;
         }
 
-        if ("S".equals(marsCar.getDirection())) {
+        if ("S".equals(this.getDirection())) {
             if ("M".equals(command)) {
-                marsCar.setY_axis(marsCar.getY_axis() - 1);
+                this.setY_axis(this.getY_axis() - 1);
             }
             if ("L".equals(command)) {
-                marsCar.setDirection("E");
+                this.setDirection("E");
             }
             if ("R".equals(command)) {
-                marsCar.setDirection("W");
+                this.setDirection("W");
             }
-            return marsCar;
+            return this;
         }
-        if ("E".equals(marsCar.getDirection())) {
+        if ("E".equals(this.getDirection())) {
             if ("M".equals(command)) {
-                marsCar.setX_axis(marsCar.getX_axis() + 1);
+                this.setX_axis(this.getX_axis() + 1);
             }
             if ("L".equals(command)) {
-                marsCar.setDirection("N");
+                this.setDirection("N");
             }
             if ("R".equals(command)) {
-                marsCar.setDirection("S");
+                this.setDirection("S");
             }
-            return marsCar;
+            return this;
         }
-        if ("W".equals(marsCar.getDirection())) {
+        if ("W".equals(this.getDirection())) {
             if ("M".equals(command)) {
-                marsCar.setX_axis(marsCar.getX_axis() - 1);
+                this.setX_axis(this.getX_axis() - 1);
             }
             if ("L".equals(command)) {
-                marsCar.setDirection("S");
+                this.setDirection("S");
             }
             if ("R".equals(command)) {
-                marsCar.setDirection("N");
+                this.setDirection("N");
             }
-            return marsCar;
+            return this;
         }
         return null;
     }
