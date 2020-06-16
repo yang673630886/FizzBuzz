@@ -56,4 +56,6 @@ public class HelloTest {
         int[] result =guessGame.randNums();
         System.out.println(Arrays.toString(result));
     }
+
+
 }
