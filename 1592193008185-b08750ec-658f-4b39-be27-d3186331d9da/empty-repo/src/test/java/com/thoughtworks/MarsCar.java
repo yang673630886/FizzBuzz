@@ -5,6 +5,12 @@ public class MarsCar {
     private int y_axis;
     private String direction;
 
+    public MarsCar(int x_axis, int y_axis, String direction) {
+        this.x_axis = x_axis;
+        this.y_axis = y_axis;
+        this.direction = direction;
+    }
+
     public int getX_axis() {
         return x_axis;
     }
@@ -29,14 +35,7 @@ public class MarsCar {
         this.direction = direction;
     }
 
-    public void init(int x, int y, String direction){
-        MarsCar marsCar = new MarsCar();
-        marsCar.setDirection(direction);
-        marsCar.setX_axis(x);
-        marsCar.setY_axis(y);
-    }
-
-    public void move(MarsCar marsCar,String command){
+    public MarsCar move(MarsCar marsCar,String command){
         if (marsCar.getDirection() == "N"){
             if (command == "M"){
                 marsCar.setY_axis(marsCar.getY_axis()+1);
@@ -48,6 +47,7 @@ public class MarsCar {
                 marsCar.setDirection("E");
             }
         }
+        return marsCar;
 
     }
 }

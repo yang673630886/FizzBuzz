@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class MarsCarTest {
     @Test
     public void should_return_01N_give_00N_M(){
-        MarsCar marsCar = new MarsCar();
+        MarsCar marsCar = new MarsCar(0,0,"N");
         MarsCar result = marsCar.move(marsCar,"M");
         assertEquals(result,"01N");
     }
