@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="440">
+              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,38 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MarsCarTest.should_return_01N_give_00N_M">
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="empty-repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzBuzzTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTest.should_return_FizzBuzzWhizz_given_105" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="empty-repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="should_return_FizzBuzzWhizz_given_105" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MarsCarTest.should_return_00E_give_00N_R">
     <configuration name="FizzBuzzTest.should_return_Fizz_given_35" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
@@ -293,6 +262,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MarsCarTest.should_return_00E_give_00N_R" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="empty-repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsCarTest" />
+      <option name="METHOD_NAME" value="should_return_00E_give_00N_R" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarsCarTest.should_return_00W_give_00N_L" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="empty-repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsCarTest" />
+      <option name="METHOD_NAME" value="should_return_00W_give_00N_L" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MarsCarTest.should_return_01N_give_00N_M" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
@@ -311,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MarsCarTest.should_return_00E_give_00N_R" />
+        <item itemvalue="JUnit.MarsCarTest.should_return_00W_give_00N_L" />
+        <item itemvalue="JUnit.MarsCarTest" />
         <item itemvalue="JUnit.MarsCarTest.should_return_01N_give_00N_M" />
         <item itemvalue="JUnit.FizzBuzzTest.should_return_Fizz_given_35" />
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.should_return_FizzBuzzWhizz_given_105" />
-        <item itemvalue="JUnit.MarsCarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -335,14 +336,11 @@
       <workItem from="1592204657003" duration="13060000" />
       <workItem from="1592220591444" duration="522000" />
       <workItem from="1592221272435" duration="1787000" />
-      <workItem from="1592269969118" duration="5984000" />
+      <workItem from="1592269969118" duration="6131000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest - 2020.06.15 at 16h 00m 45s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzTest_should_return_FizzBuzz_given_15_Buzz - 2020.06.15 at 16h 08m 31s.xml">
       <configuration name="FizzBuzzTest.should_return_FizzBuzz_given_15_Buzz" configurationId="JUnit" />
     </history-entry>
@@ -370,9 +368,12 @@
     <history-entry file="MarsCarTest_should_return_01N_give_00N_M - 2020.06.16 at 11h 11m 56s.xml">
       <configuration name="MarsCarTest.should_return_01N_give_00N_M" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MarsCarTest_should_return_01N_give_00N_M - 2020.06.16 at 11h 12m 11s.xml">
+      <configuration name="MarsCarTest.should_return_01N_give_00N_M" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24690000" />
+    <option name="totallyTimeSpent" value="24837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -488,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="440">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
