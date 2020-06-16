@@ -46,10 +46,10 @@ class MarsCar {
             if ("R".equals(command)) {
                 this.setDirection("E");
             }
-            return this;
+
         }
 
-        if ("S".equals(this.getDirection())) {
+        else if ("S".equals(this.getDirection())) {
             if ("M".equals(command)) {
                 this.setY_axis(this.getY_axis() - 1);
             }
@@ -59,9 +59,9 @@ class MarsCar {
             if ("R".equals(command)) {
                 this.setDirection("W");
             }
-            return this;
+
         }
-        if ("E".equals(this.getDirection())) {
+        else if ("E".equals(this.getDirection())) {
             if ("M".equals(command)) {
                 this.setX_axis(this.getX_axis() + 1);
             }
@@ -71,9 +71,9 @@ class MarsCar {
             if ("R".equals(command)) {
                 this.setDirection("S");
             }
-            return this;
+
         }
-        if ("W".equals(this.getDirection())) {
+        else if ("W".equals(this.getDirection())) {
             if ("M".equals(command)) {
                 this.setX_axis(this.getX_axis() - 1);
             }
@@ -83,8 +83,8 @@ class MarsCar {
             if ("R".equals(command)) {
                 this.setDirection("N");
             }
-            return this;
+
         }
-        return null;
+        return this;
     }
 }
