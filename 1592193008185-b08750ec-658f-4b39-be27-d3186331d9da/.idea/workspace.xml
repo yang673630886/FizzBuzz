@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2474341-1820-412f-b701-dbdfa7144f5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/empty-repo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +15,24 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="109" column="36" lean-forward="true" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+            <state relative-caret-position="682">
+              <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -33,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -41,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="484">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,13 +74,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/empty-repo/pom.xml" />
-        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/Dependency.java" />
-        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/RunMarsCar.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/MarsCar.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java" />
+        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java" />
       </list>
     </option>
   </component>
@@ -100,14 +108,15 @@
     <option name="width" value="937" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,6 +308,7 @@
       <workItem from="1592204657003" duration="13060000" />
       <workItem from="1592220591444" duration="522000" />
       <workItem from="1592221272435" duration="1787000" />
+      <workItem from="1592269969118" duration="1824000" />
     </task>
     <servers />
   </component>
@@ -334,13 +345,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18706000" />
+    <option name="totallyTimeSpent" value="20530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24413647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2468017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,7 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java" />
     <entry file="file://$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/MarsCar.java" />
     <entry file="file://$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/Dependency.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -403,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -414,17 +424,24 @@
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="109" column="36" lean-forward="true" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+        <state relative-caret-position="682">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>

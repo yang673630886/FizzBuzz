@@ -34,13 +34,4 @@ public class HelloWorldTest {
         //then
         assertEquals(actual, "Hello World");
     }
-    @Test
-    public void should_return_num_given_num(){
-        //given
-
-
-        //when
-
-        //then
-    }
 }
