@@ -176,10 +176,10 @@ public class MarsCarTest {
     }
 
     @Test
-    public void should_return_12e_given_00n_wwrw() {
+    public void should_return_12e_given_00n_MMRM() {
         MarsCar marsCar = new MarsCar(0, 0, "N");
         MarsCarMain marsCarMain = new MarsCarMain();
-        marsCarMain.sendCommendsForMove(marsCar, "WWRW");
+        marsCarMain.sendCommendsForMove(marsCar, "MMRM");
 
         int x = marsCar.getX_axis();
         int y = marsCar.getY_axis();
