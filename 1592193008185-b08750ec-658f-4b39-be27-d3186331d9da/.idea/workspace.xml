@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
+            <state relative-caret-position="257">
+              <caret line="183" column="34" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="484">
+              <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
               <folding>
                 <element signature="e#156#157#0" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
@@ -70,6 +70,15 @@
                 <element signature="e#516#517#0" expanded="true" />
                 <element signature="e#558#559#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -117,8 +126,9 @@
         <option value="$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/MarsCar.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java" />
-        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarMain.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCar.java" />
+        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/DataProcess.java" />
+        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarMain.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java" />
       </list>
     </option>
@@ -242,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MarsCarTest">
+  <component name="RunManager" selected="JUnit.MarsCarTest.should_return_12e_given_00n_wwrw">
     <configuration name="MarsCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
@@ -269,22 +279,6 @@
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsCarTest" />
       <option name="METHOD_NAME" value="should_return_00S_give_00E_R" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MarsCarTest.should_return_00W_give_00N_L" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="empty-repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsCarTest" />
-      <option name="METHOD_NAME" value="should_return_00W_give_00N_L" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -322,13 +316,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MarsCarTest.should_return_12e_given_00n_wwrw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="empty-repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsCarTest" />
+      <option name="METHOD_NAME" value="should_return_12e_given_00n_wwrw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MarsCarTest.should_return_12e_given_00n_wwrw" />
         <item itemvalue="JUnit.MarsCarTest" />
         <item itemvalue="JUnit.MarsCarTest.should_return_01N_give_00N_M" />
         <item itemvalue="JUnit.MarsCarTest.should_return_10E_give_00E_M" />
         <item itemvalue="JUnit.MarsCarTest.should_return_00S_give_00E_R" />
-        <item itemvalue="JUnit.MarsCarTest.should_return_00W_give_00N_L" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +358,7 @@
       <workItem from="1592204657003" duration="13060000" />
       <workItem from="1592220591444" duration="522000" />
       <workItem from="1592221272435" duration="1787000" />
-      <workItem from="1592269969118" duration="10944000" />
+      <workItem from="1592269969118" duration="13058000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余的public">
       <created>1592290596134</created>
@@ -378,31 +388,17 @@
       <option name="project" value="LOCAL" />
       <updated>1592291053063</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="改动this为marscar">
+      <created>1592291364633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592291364633</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MarsCarTest_should_return_00S_give_00E_R - 2020.06.16 at 11h 55m 42s.xml">
-      <configuration name="MarsCarTest.should_return_00S_give_00E_R" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsCarTest_should_return_10E_give_00E_M - 2020.06.16 at 11h 55m 50s.xml">
-      <configuration name="MarsCarTest.should_return_10E_give_00E_M" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsCarTest - 2020.06.16 at 11h 57m 08s.xml">
-      <configuration name="MarsCarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsCarTest - 2020.06.16 at 11h 58m 01s.xml">
-      <configuration name="MarsCarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsCarTest - 2020.06.16 at 14h 50m 18s.xml">
-      <configuration name="MarsCarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsCarTest - 2020.06.16 at 14h 53m 43s.xml">
-      <configuration name="MarsCarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsCarTest - 2020.06.16 at 14h 57m 23s.xml">
-      <configuration name="MarsCarTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MarsCarTest - 2020.06.16 at 14h 57m 53s.xml">
       <configuration name="MarsCarTest" configurationId="JUnit" />
     </history-entry>
@@ -412,15 +408,36 @@
     <history-entry file="MarsCarTest - 2020.06.16 at 15h 02m 53s.xml">
       <configuration name="MarsCarTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MarsCarTest - 2020.06.16 at 15h 07m 10s.xml">
+      <configuration name="MarsCarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsCarTest - 2020.06.16 at 15h 08m 55s.xml">
+      <configuration name="MarsCarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsCarTest - 2020.06.16 at 15h 14m 18s.xml">
+      <configuration name="MarsCarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsCarTest - 2020.06.16 at 15h 17m 17s.xml">
+      <configuration name="MarsCarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsCarTest_should_return_12e_given_00n_wwrw - 2020.06.16 at 15h 40m 36s.xml">
+      <configuration name="MarsCarTest.should_return_12e_given_00n_wwrw" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsCarTest_should_return_12e_given_00n_wwrw - 2020.06.16 at 15h 41m 15s.xml">
+      <configuration name="MarsCarTest.should_return_12e_given_00n_wwrw" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsCarTest_should_return_12e_given_00n_wwrw - 2020.06.16 at 15h 41m 26s.xml">
+      <configuration name="MarsCarTest.should_return_12e_given_00n_wwrw" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29650000" />
+    <option name="totallyTimeSpent" value="31764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2468017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,7 +456,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" visible="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.32850778" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -459,7 +476,8 @@
     <MESSAGE value="去除了多余的方法参数" />
     <MESSAGE value="删除多余的return" />
     <MESSAGE value="格式化代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="格式化代码" />
+    <MESSAGE value="改动this为marscar" />
+    <option name="LAST_COMMIT_MESSAGE" value="改动this为marscar" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/empty-repo/target/classes/com/thoughtworks/HelloWorld.class" />
@@ -530,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="484">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding>
             <element signature="e#156#157#0" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
@@ -549,10 +567,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
+        <state relative-caret-position="257">
+          <caret line="183" column="34" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -36,6 +36,17 @@ class MarsCar {
     }
 
     void move(String command) {
+      /*  if ("M".equals(command)){
+            if ("N".equals(this.getDirection())){
+                this.setY_axis(this.getY_axis() + 1);
+            }else if ("S".equals(this.getDirection())){
+                this.setY_axis(this.getY_axis() - 1);
+            }else if ("E".equals(this.getDirection())){
+                this.setX_axis(this.getX_axis() + 1);
+            }else if ("W".equals(this.getDirection())){
+                this.setX_axis(this.getX_axis() - 1);
+            }
+        }*/
         if ("N".equals(this.getDirection())) {
             if ("M".equals(command)) {
                 this.setY_axis(this.getY_axis() + 1);
@@ -46,7 +57,6 @@ class MarsCar {
             if ("R".equals(command)) {
                 this.setDirection("E");
             }
-
         } else if ("S".equals(this.getDirection())) {
             if ("M".equals(command)) {
                 this.setY_axis(this.getY_axis() - 1);
@@ -57,7 +67,6 @@ class MarsCar {
             if ("R".equals(command)) {
                 this.setDirection("W");
             }
-
         } else if ("E".equals(this.getDirection())) {
             if ("M".equals(command)) {
                 this.setX_axis(this.getX_axis() + 1);
@@ -68,7 +77,6 @@ class MarsCar {
             if ("R".equals(command)) {
                 this.setDirection("S");
             }
-
         } else if ("W".equals(this.getDirection())) {
             if ("M".equals(command)) {
                 this.setX_axis(this.getX_axis() - 1);
@@ -79,7 +87,6 @@ class MarsCar {
             if ("R".equals(command)) {
                 this.setDirection("N");
             }
-
         }
     }
 }
