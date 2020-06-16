@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2474341-1820-412f-b701-dbdfa7144f5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../guess_number/src/test/java/com/twschool/practice/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../guess_number/src/test/java/com/twschool/practice/HelloTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/empty-repo/target/" />
@@ -366,7 +367,7 @@
       <workItem from="1592220591444" duration="522000" />
       <workItem from="1592221272435" duration="1787000" />
       <workItem from="1592269969118" duration="19546000" />
-      <workItem from="1592311661860" duration="799000" />
+      <workItem from="1592311661860" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余的public">
       <created>1592290596134</created>
@@ -446,7 +447,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39051000" />
+    <option name="totallyTimeSpent" value="39456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
