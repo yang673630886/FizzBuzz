@@ -1,8 +1,15 @@
 package com.thoughtworks;
 
-public class MarsCarTest {
-    public void should_return_01N_give_00N_M(){
+import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
+public class MarsCarTest {
+    @Test
+    public void should_return_01N_give_00N_M(){
+        MarsCar marsCar = new MarsCar();
+        MarsCar result = marsCar.move(marsCar,"M");
+        assertEquals(result,"01N");
     }
     public void should_return_00W_give_00N_L(){
 
