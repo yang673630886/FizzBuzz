@@ -25,4 +25,11 @@ public class HelloTest {
         String result = guessGame.answer(new int[]{1, 2, 4, 3}, new int[]{1, 2, 3, 4});
         assertEquals(result,"2A2B");
     }
+
+    @Test
+    public void should_return_1A2B_given_1543_when_true1234(){
+        GuessGame guessGame = new GuessGame();
+        String result = guessGame.answer(new int[]{1, 5, 4, 3}, new int[]{1, 2, 3, 4});
+        assertEquals(result,"1A2B");
+    }
 }
