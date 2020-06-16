@@ -35,7 +35,7 @@ class MarsCar {
         this.direction = direction;
     }
 
-    MarsCar move(String command) {
+    void move(String command) {
         if ("N".equals(this.getDirection())) {
             if ("M".equals(command)) {
                 this.setY_axis(this.getY_axis() + 1);
@@ -81,6 +81,5 @@ class MarsCar {
             }
 
         }
-        return this;
     }
 }
