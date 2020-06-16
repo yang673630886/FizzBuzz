@@ -8,7 +8,7 @@ import java.util.Arrays;
 import static org.junit.Assert.assertEquals;
 
 public class HelloTest {
-    GuessGame guessGame = new GuessGame();
+    private GuessGame guessGame = new GuessGame();
 
     @Test
     public void should_run_test_pass() {
