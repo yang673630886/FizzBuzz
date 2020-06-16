@@ -39,4 +39,18 @@ public class HelloTest {
         String result = guessGame.answer(new int[]{4, 3, 2, 1}, new int[]{1, 2, 3, 4});
         assertEquals(result,"0A4B");
     }
+
+    @Test
+    public void should_return_0A3B_given_5321_when_true1234(){
+        GuessGame guessGame = new GuessGame();
+        String result = guessGame.answer(new int[]{5, 3, 2, 1}, new int[]{1, 2, 3, 4});
+        assertEquals(result,"0A3B");
+    }
+
+    @Test
+    public void should_return_0A0B_given_5678_when_true1234(){
+        GuessGame guessGame = new GuessGame();
+        String result = guessGame.answer(new int[]{5, 6, 7, 8}, new int[]{1, 2, 3, 4});
+        assertEquals(result,"0A0B");
+    }
 }
