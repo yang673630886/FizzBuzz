@@ -35,19 +35,56 @@ public class MarsCar {
         this.direction = direction;
     }
 
-    public MarsCar move(MarsCar marsCar,String command){
-        if (marsCar.getDirection() == "N"){
-            if (command == "M"){
-                marsCar.setY_axis(marsCar.getY_axis()+1);
+    public MarsCar move(MarsCar marsCar, String command) {
+        if (marsCar.getDirection() == "N") {
+            if (command == "M") {
+                marsCar.setY_axis(marsCar.getY_axis() + 1);
             }
-            if(command=="L"){
+            if (command == "L") {
                 marsCar.setDirection("W");
             }
-            if(command=="R"){
+            if (command == "R") {
                 marsCar.setDirection("E");
             }
+            return marsCar;
         }
-        return marsCar;
 
+        if (marsCar.getDirection() == "S") {
+            if (command == "M") {
+                marsCar.setY_axis(marsCar.getY_axis() - 1);
+            }
+            if (command == "L") {
+                marsCar.setDirection("E");
+            }
+            if (command == "R") {
+                marsCar.setDirection("W");
+            }
+            return marsCar;
+        }
+        if (marsCar.getDirection() == "E") {
+            if (command == "M") {
+                marsCar.setX_axis(marsCar.getX_axis() + 1);
+            }
+            if (command == "L") {
+                marsCar.setDirection("N");
+            }
+            if (command == "R") {
+                marsCar.setDirection("S");
+            }
+            return marsCar;
+        }
+        if (marsCar.getDirection() == "W") {
+            if (command == "M") {
+                marsCar.setX_axis(marsCar.getX_axis() - 1);
+            }
+            if (command == "L") {
+                marsCar.setDirection("S");
+            }
+            if (command == "R") {
+                marsCar.setDirection("N");
+            }
+            return marsCar;
+        }
+        return null;
     }
 }

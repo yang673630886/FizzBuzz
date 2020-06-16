@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2474341-1820-412f-b701-dbdfa7144f5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/empty-repo/target/" />
@@ -31,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="88">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +42,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="227">
+              <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
               <folding>
                 <element signature="e#156#157#0" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
@@ -106,8 +116,9 @@
         <option value="$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/MarsCar.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java" />
-        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCar.java" />
+        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarMain.java" />
         <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java" />
+        <option value="$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCar.java" />
       </list>
     </option>
   </component>
@@ -230,23 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MarsCarTest.should_return_00E_give_00N_R">
-    <configuration name="FizzBuzzTest.should_return_Fizz_given_35" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="empty-repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="should_return_Fizz_given_35" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MarsCarTest">
     <configuration name="MarsCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
@@ -278,6 +273,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MarsCarTest.should_return_00S_give_00E_R" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="empty-repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsCarTest" />
+      <option name="METHOD_NAME" value="should_return_00S_give_00E_R" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MarsCarTest.should_return_00W_give_00N_L" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
@@ -294,7 +305,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsCarTest.should_return_01N_give_00N_M" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarsCarTest.should_return_10E_give_00E_M" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
         <pattern>
@@ -304,7 +315,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsCarTest" />
-      <option name="METHOD_NAME" value="should_return_01N_give_00N_M" />
+      <option name="METHOD_NAME" value="should_return_10E_give_00E_M" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -312,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MarsCarTest.should_return_00E_give_00N_R" />
-        <item itemvalue="JUnit.MarsCarTest.should_return_00W_give_00N_L" />
         <item itemvalue="JUnit.MarsCarTest" />
-        <item itemvalue="JUnit.MarsCarTest.should_return_01N_give_00N_M" />
-        <item itemvalue="JUnit.FizzBuzzTest.should_return_Fizz_given_35" />
+        <item itemvalue="JUnit.MarsCarTest.should_return_10E_give_00E_M" />
+        <item itemvalue="JUnit.MarsCarTest.should_return_00S_give_00E_R" />
+        <item itemvalue="JUnit.MarsCarTest.should_return_00W_give_00N_L" />
+        <item itemvalue="JUnit.MarsCarTest.should_return_00E_give_00N_R" />
       </list>
     </recent_temporary>
   </component>
@@ -336,44 +347,44 @@
       <workItem from="1592204657003" duration="13060000" />
       <workItem from="1592220591444" duration="522000" />
       <workItem from="1592221272435" duration="1787000" />
-      <workItem from="1592269969118" duration="6131000" />
+      <workItem from="1592269969118" duration="8851000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest_should_return_FizzBuzz_given_15_Buzz - 2020.06.15 at 16h 08m 31s.xml">
-      <configuration name="FizzBuzzTest.should_return_FizzBuzz_given_15_Buzz" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsCarTest - 2020.06.15 at 17h 32m 37s.xml">
+    <history-entry file="MarsCarTest - 2020.06.16 at 11h 36m 27s.xml">
       <configuration name="MarsCarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsCarTest - 2020.06.15 at 17h 33m 25s.xml">
+    <history-entry file="MarsCarTest_should_return_00W_give_00N_L - 2020.06.16 at 11h 36m 30s.xml">
+      <configuration name="MarsCarTest.should_return_00W_give_00N_L" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsCarTest_should_return_00W_give_00N_L - 2020.06.16 at 11h 49m 16s.xml">
+      <configuration name="MarsCarTest.should_return_00W_give_00N_L" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsCarTest_should_return_00W_give_00N_L - 2020.06.16 at 11h 50m 39s.xml">
+      <configuration name="MarsCarTest.should_return_00W_give_00N_L" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MarsCarTest - 2020.06.16 at 11h 53m 35s.xml">
       <configuration name="MarsCarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2020.06.15 at 19h 30m 41s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    <history-entry file="MarsCarTest - 2020.06.16 at 11h 55m 01s.xml">
+      <configuration name="MarsCarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest - 2020.06.15 at 19h 41m 39s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    <history-entry file="MarsCarTest_should_return_00S_give_00E_R - 2020.06.16 at 11h 55m 42s.xml">
+      <configuration name="MarsCarTest.should_return_00S_give_00E_R" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_should_return_Fizz_given_35 - 2020.06.15 at 20h 04m 12s.xml">
-      <configuration name="FizzBuzzTest.should_return_Fizz_given_35" configurationId="JUnit" />
+    <history-entry file="MarsCarTest_should_return_10E_give_00E_M - 2020.06.16 at 11h 55m 50s.xml">
+      <configuration name="MarsCarTest.should_return_10E_give_00E_M" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsCarTest_should_return_01N_give_00N_M - 2020.06.16 at 10h 59m 22s.xml">
-      <configuration name="MarsCarTest.should_return_01N_give_00N_M" configurationId="JUnit" />
+    <history-entry file="MarsCarTest - 2020.06.16 at 11h 57m 08s.xml">
+      <configuration name="MarsCarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsCarTest_should_return_01N_give_00N_M - 2020.06.16 at 11h 07m 06s.xml">
-      <configuration name="MarsCarTest.should_return_01N_give_00N_M" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsCarTest_should_return_01N_give_00N_M - 2020.06.16 at 11h 11m 56s.xml">
-      <configuration name="MarsCarTest.should_return_01N_give_00N_M" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MarsCarTest_should_return_01N_give_00N_M - 2020.06.16 at 11h 12m 11s.xml">
-      <configuration name="MarsCarTest.should_return_01N_give_00N_M" configurationId="JUnit" />
+    <history-entry file="MarsCarTest - 2020.06.16 at 11h 58m 01s.xml">
+      <configuration name="MarsCarTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24837000" />
+    <option name="totallyTimeSpent" value="27557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -389,7 +400,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -456,10 +467,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="227">
+          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
           <folding>
             <element signature="e#156#157#0" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
@@ -477,20 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/FizzBuzzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/MarsCarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="88">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
