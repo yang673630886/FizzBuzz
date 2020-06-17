@@ -80,4 +80,31 @@ public class UserTest {
         String grade2 = String.valueOf(guessNumberGame1.getGrade());
         Assert.assertEquals("11", grade2);
     }
+
+    @Test
+    public void should_return_zhang_31_when_win_8_times_and_return_san_11_when_win_3_times() {
+        Answer answer = new Answer(Arrays.asList("1", "2", "3", "4"));
+        RandomAnswerGenerator randomAnswerGenerator = Mockito.mock(RandomAnswerGenerator.class);
+        Mockito.when(randomAnswerGenerator.generateAnswer()).thenReturn(answer);
+
+        User user = new User("1","zhang",guessNumberGame);
+        user.playGame(Arrays.asList("1", "2", "3", "4"));
+        user.playGame(Arrays.asList("1", "2", "3", "4"));
+        user.playGame(Arrays.asList("1", "2", "3", "4"));
+        user.playGame(Arrays.asList("1", "2", "3", "4"));
+        user.playGame(Arrays.asList("1", "2", "3", "4"));
+        user.playGame(Arrays.asList("1", "2", "3", "4"));
+        user.playGame(Arrays.asList("1", "2", "3", "4"));
+        user.playGame(Arrays.asList("1", "2", "3", "4"));
+        String grade = String.valueOf(guessNumberGame.getGrade());
+        Assert.assertEquals("31", grade);
+
+        GuessNumberGame guessNumberGame1 = new GuessNumberGame(randomAnswerGenerator);
+        User user2 = new User("1","san",guessNumberGame1);
+        user2.playGame(Arrays.asList("1", "2", "3", "4"));
+        user2.playGame(Arrays.asList("1", "2", "3", "4"));
+        user2.playGame(Arrays.asList("1", "2", "3", "4"));
+        String grade2 = String.valueOf(guessNumberGame1.getGrade());
+        Assert.assertEquals("11", grade2);
+    }
 }
