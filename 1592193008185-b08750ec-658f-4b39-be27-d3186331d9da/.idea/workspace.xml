@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2474341-1820-412f-b701-dbdfa7144f5f" name="Default Changelist" comment="" />
+    <list default="true" id="c2474341-1820-412f-b701-dbdfa7144f5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/empty-repo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="254">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,10 +136,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1273" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="536" />
+    <option name="y" value="123" />
+    <option name="width" value="937" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -148,6 +151,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,14 +227,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guess_number" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -258,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+  <component name="RunManager" selected="JUnit.HelloWorldTest">
     <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="empty-repo" />
       <extension name="coverage">
@@ -269,6 +272,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.FizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="empty-repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.HelloWorldTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,22 +303,6 @@
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsCarTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MarsCarTest.should_return_01N_give_00N_M" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="empty-repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.MarsCarTest" />
-      <option name="METHOD_NAME" value="should_return_01N_give_00N_M" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -339,11 +341,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloWorldTest" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.MarsCarTest" />
         <item itemvalue="JUnit.MarsCarTest.should_return_12e_given_00n_MMRM" />
         <item itemvalue="JUnit.MarsCarTest.should_return_12e_given_00n_wwrw" />
-        <item itemvalue="JUnit.MarsCarTest.should_return_01N_give_00N_M" />
       </list>
     </recent_temporary>
   </component>
@@ -365,6 +367,7 @@
       <workItem from="1592221272435" duration="1787000" />
       <workItem from="1592269969118" duration="19546000" />
       <workItem from="1592311661860" duration="1204000" />
+      <workItem from="1592356009244" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="删除多余的public">
       <created>1592290596134</created>
@@ -412,9 +415,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MarsCarTest_should_return_12e_given_00n_wwrw - 2020.06.16 at 15h 50m 58s.xml">
-      <configuration name="MarsCarTest.should_return_12e_given_00n_wwrw" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MarsCarTest_should_return_12e_given_00n_wwrw - 2020.06.16 at 15h 52m 37s.xml">
       <configuration name="MarsCarTest.should_return_12e_given_00n_wwrw" configurationId="JUnit" />
     </history-entry>
@@ -442,15 +442,17 @@
     <history-entry file="FizzBuzzTest - 2020.06.16 at 16h 23m 20s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HelloWorldTest - 2020.06.17 at 09h 07m 09s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39456000" />
+    <option name="totallyTimeSpent" value="39491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16017488" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16204691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -545,6 +547,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/MarsCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/MarsCarMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -559,17 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/empty-repo/src/main/java/com.thoughtworks/MarsCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/empty-repo/src/test/java/com/thoughtworks/HelloWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="254">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
